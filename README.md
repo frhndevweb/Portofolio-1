@@ -2,60 +2,51 @@
 
 Ini adalah website portofolio pribadi yang menampilkan proyek-proyek unggulan, komentar dari pengunjung, dan sertifikat prestasi.
 
-## Fitur
+## Fitur Unggulan
 
-- **Hero Section**: Menarik dengan animasi AOS.
-- **Tentang Saya**: Deskripsi singkat dan media sosial.
-- **Proyek Unggulan**: Showcase beberapa project seperti Website Pribadi dan Dashboard Admin.
-- **Komentar Pengunjung**: Komentar yang masuk langsung tampil dari database.
+- **Tampilan Hero yang Menarik**: Dengan animasi AOS dan scroll yang halus.
+- **Tentang Saya**: Deskripsi singkat & tautan ke media sosial.
+- **Proyek Unggulan**: Showcase project seperti Website Pribadi & Dashboard Admin.
+- **Komentar Pengunjung**: Sistem komentar real-time dari database.
 - **Sertifikat**: Sertifikat juara 3 LKS Cybersecurity tingkat kabupaten.
-- **Responsif**: Tampilan responsif di berbagai perangkat.
-- **Smooth Scrolling & Animasi**: Scroll halus dan animasi saat elemen tampil.
+- **Responsif**: Desain mobile-friendly.
 
 ## Teknologi yang Digunakan
 
-- HTML5
-- CSS3
-- JavaScript
-- PHP (untuk bagian komentar)
-- MySQL
-- [AOS.js](https://michalsnik.github.io/aos/)
-- Font Awesome
+- HTML5 & CSS3
+- JavaScript (AOS.js)
+- PHP & MySQL
+- Font Awesome & Bootstrap 5
 
-## Instalasi
+## Cara Menjalankan
 
-1. Clone repo ini:
-
+1. **Clone Repository**
    ```bash
-   git clone https://github.com/username/portfolio-website.git
-````
+   git clone https://github.com/frhndevweb/Portofolio-1.git
+   ```
 
-2. Import file SQL ke database dan atur koneksi `config.php`.
+2. **Buka Folder Project** di code editor kamu (misalnya VSCode).
 
-3. Jalankan di server lokal (XAMPP / Laragon / dsb).
+3. **Setup Database**:
+   - Import file `database.sql` ke phpMyAdmin
+   - Edit `config.php` dengan koneksi database kamu:
+     ```php
+     $conn = mysqli_connect("localhost", "root", "", "nama_database");
+     ```
 
-## Preview
-
-![Preview](screenshot.jpg)
-*Tampilan halaman utama portfolio*
+4. **Jalankan di Localhost** menggunakan XAMPP/Laragon dan akses di browser:
+   ```
+   http://localhost/portfolio-website
+   ```
 
 ## Sertifikat
 
-![Sertifikat Juara 3 LKS Cybersecurity](path-to-your-certificate-image.jpg)
+**Juara 3 LKS Cybersecurity Tingkat Kabupaten**
 
 ## Lisensi
 
-Proyek ini bebas digunakan untuk tujuan pribadi dan pembelajaran. Kredit tidak wajib tapi dihargai.
+Proyek ini bebas digunakan untuk pembelajaran dan keperluan pribadi.
 
 ---
 
-> Dibuat dengan semangat belajar & berkembang.
-
-```
-
-Kamu bisa sesuaikan bagian seperti:
-- `https://github.com/username/portfolio-website.git` → dengan URL GitHub kamu.
-- Ganti `screenshot.jpg` & `path-to-your-certificate-image.jpg` jika ingin menampilkan preview.
-
-Ingin saya bantu buatkan preview gambar atau contoh isi file `config.php` juga?
-```
+> Dibuat dengan semangat belajar dan pengembangan diri.
