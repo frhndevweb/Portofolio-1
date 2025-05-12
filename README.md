@@ -36,7 +36,7 @@ Ini adalah website portofolio pribadi yang menampilkan proyek-proyek unggulan, k
 
 4. **Jalankan di Localhost** menggunakan XAMPP/Laragon dan akses di browser:
    ```
-   http://localhost/portfolio-website
+   http://localhost/Portofolio-1
    ```
 
 ## Sertifikat
